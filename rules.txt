@@ -1,0 +1,443 @@
+ESTRUCTURA EXACTA DE NOTION (ShowFuture OS v1)
+
+
+🧠 PARTE 1
+ ESTRUCTURA PRINCIPAL DE NOTION
+
+🗂️ 1. DASHBOARD PRINCIPAL — SHOWFUTURE OS
+
+Esta es la home del equipo.
+
+Bloques:
+
+📊 KPIs Semanales
+
+🔥 Tickets Prioritarios Hoy
+
+⏳ Entregas de la Semana
+
+👥 Clientes Activos
+
+🚨 Bloqueos / Riesgos
+
+
+🗂️ 2. CLIENTES — Base de Datos
+
+📄 Clientes ShowFuture
+
+Campos
+
+Nombre del cliente
+
+Estado: Onboarding / Activo / Pausado / Cerrado
+
+Presupuesto Ads
+
+AM asignado
+
+Fecha inicio
+
+Fecha renovación
+
+SLA activo (sí/no)
+
+Nivel de cliente (Starter / Growth / Scale)
+
+👉 Todo cliente tiene su propia página interna
+
+
+🗂️ 3. ONBOARDING — Plantilla
+
+📄 Onboarding Cliente – Template
+
+Se duplica por cada cliente
+
+Incluye:
+
+Datos del cliente
+
+Checklist onboarding (día 1–7)
+
+Accesos
+
+KPIs acordados
+
+Reglas de comunicación
+
+Historial importante
+
+
+🗂️ 4. TICKETS — Base de Datos OPERATIVA
+
+📄 Tickets ShowFuture
+
+Campos obligatorios
+
+Cliente (relación con BD Clientes)
+
+Tipo: Creativo / Ads / Copy / Comercial
+
+Objetivo (campo texto corto)
+
+Prioridad: Alta / Media / Baja
+
+Responsable
+
+Deadline
+
+Estado:
+
+Backlog
+
+En proceso
+
+QA
+
+Entregado
+
+Requiere aprobación cliente (sí/no)
+
+👉 Esta BD se ve como tabla o Kanban
+
+
+🗂️ 5. QA — CONTROL DE CALIDAD
+
+📄 QA – Checklist
+
+Plantilla fija con:
+
+QA Estratégico
+
+QA Marca & Compliance
+
+QA Técnico
+
+Aprobado por
+
+Fecha
+
+👉 Se usa antes de mover ticket a “Entregado”
+
+
+🗂️ 6. SOPs — BIBLIOTECA OPERATIVA
+
+📁 SOP ShowFuture
+
+Subpáginas:
+
+SOP Onboarding
+
+SOP Comunicación
+
+SOP Tickets
+
+SOP QA
+
+SOP Reportes
+
+👉 Aquí vive “cómo se hacen las cosas”
+
+
+🧠 PARTE 2
+
+IMPLANTAR TICKETS SIN FRICCIÓN (WhatsApp → Notion)
+
+Esto es CLAVE para que el equipo no lo odie.
+
+
+🔁 FLUJO REALISTA (NO IDEALISTA)
+
+Paso 1 — Cliente escribe por WhatsApp
+
+Ejemplo:
+
+“Necesito un video nuevo para ventas”
+
+Paso 2 — AM responde con estructura (copiar/pegar)
+
+Perfecto 🙌 Para organizarlo rápido, confírmame por favor:
+1️⃣ Objetivo del video
+2️⃣ Formato (reel, historia, anuncio)
+3️⃣ Fecha límite
+
+Paso 3 — AM crea el TICKET en Notion
+
+(2–3 minutos, no más)
+
+Ejemplo:
+
+Cliente: SexySkin
+
+Tipo: Creativo
+
+Objetivo: Video conversión campaña Meta
+
+Deadline: Viernes
+
+Responsable: Editor
+
+Paso 4 — Equipo SOLO trabaja desde tickets
+
+Regla interna:
+
+“Si no está en Notion, no existe”
+
+Paso 5 — QA antes de enviar
+
+El ticket pasa:
+En proceso → QA(CONTROL DE CALIDAD) → Entregado
+
+Paso 6 — AM envía al cliente
+
+Mensaje tipo:
+
+Listo 🙌 Te comparto el material aprobado internamente. Quedo atento a feedback.
+
+
+🛑 Regla NO negociable
+
+Nada se hace “por favorcito”
+
+Nada se hace “rápido por WhatsApp”
+
+Todo entra como ticket
+
+👉 Esto no es rigidez, es protección del equipo.
+
+
+🧠 PARTE 3
+
+MANUAL INTERNO SHOWFUTURE (Versión resumida y clara)
+
+Este documento lo puedes usar para el equipo actual y futuros hires.
+
+
+📘 MANUAL INTERNO — SHOWFUTURE
+
+1. Cómo operamos
+
+Trabajamos por tickets
+
+Respetamos prioridades
+
+No improvisamos entregas
+
+2. Comunicación
+
+Cliente → SOLO por AM
+
+Interno → Notion + WhatsApp interno
+
+Urgencias → definidas (no todo es urgente)
+
+3. SLA (acuerdo interno)
+
+Respuesta cliente: ≤ 4h hábiles
+
+Creativos: 24–48h
+
+Correcciones: 24h
+
+Reportes: semanal + mensual
+
+4. QA obligatorio
+
+Antes de entregar:
+
+¿Cumple objetivo?
+
+¿Cumple marca?
+
+¿Cumple formato?
+
+Si no → no se envía.
+
+5. Rol del AM
+
+El AM:
+
+Ordena
+
+Prioriza
+
+Protege al equipo
+
+Protege al cliente
+
+Protege al fundador
+
+6. Regla cultural clave
+
+Calidad + orden > velocidad caótica
+
+
+================================================================================
+
+
+DOCUMENTO 1 — SOP DE ONBOARDING DE CLIENTES (Notion)
+
+📌 Página: Onboarding Cliente – ShowFuture
+
+1. Datos del Cliente
+Marca:
+Contacto principal:
+WhatsApp:
+Plataforma principal:
+Presupuesto mensual ads:
+Objetivo principal (ventas / leads / awareness):
+
+
+2. Checklist Onboarding (Día 1–7)
+☐ Contrato firmado
+ ☐ Pago confirmed
+ ☐ Accesos recibidos (Meta / Google / TikTok / Web / WhatsApp)
+ ☐ Capacitación Comercial completada
+ ☐ KPIs definidos y aprobados
+ ☐ Canal de comunicación confirmado
+ ☐ Calendario de entregables compartido
+
+Estado onboarding: ☐ Pendiente ☐ En proceso ☐ Completo
+
+
+3. Reglas Claras al Cliente (se envían por WhatsApp)
+Toda comunicación pasa por el Account Manager
+Cambios y solicitudes se reciben por mensaje estructurado
+Tiempos de respuesta: hasta 24h hábiles
+Resultados dependen de inversión y proceso comercial
+
+
+ DOCUMENTO 2 — SOP DE COMUNICACIÓN (WhatsApp)
+
+📌 Mensaje estándar de inicio (copiar/pegar)
+
+Hola 👋 A partir de hoy yo seré tu Account Manager en ShowFuture.
+
+Para que todo fluya mejor:
+• Este será nuestro canal principal
+• Las solicitudes se atienden en horario laboral
+• Te avisaré fechas de entrega y avances
+
+Mi objetivo es que tengas claridad, orden y resultados 🚀
+
+
+📌 SLA (acuerdo interno)
+Respuesta cliente: ≤ 4h hábiles
+Cambios creativos: 24–48h
+Reporte: semanal + cierre mensual
+
+
+DOCUMENTO 3 — SISTEMA DE TICKETS (Notion)
+
+📌 Base de datos: Tickets – ShowFuture
+
+Campos
+Cliente
+Tipo: 🎨 Creativo | 📊 Ads | ✍️ Copy | 📞 Comercial
+Objetivo
+Prioridad: Alta / Media / Baja
+Responsable
+Fecha límite
+Estado: Backlog → En proceso → QA → Entregado
+
+
+📌 Regla:
+Si no es ticket, no se trabaja.
+
+
+¿A qué me refiero con Tickets?
+Ticket = solicitud de trabajo estructurada
+No es algo técnico. Es simplemente ordenar el trabajo antes de hacerlo.
+
+Hoy (sin tickets):
+El cliente escribe por WhatsApp
+Alguien pide algo “rápido”
+Se trabaja sin contexto
+Se olvida quién pidió qué
+Hay reprocesos
+
+Con tickets:
+Cada solicitud se convierte en un registro claro de trabajo.
+
+Un ticket responde siempre a:
+¿Qué se va a hacer?
+¿Para qué?
+¿Para cuándo?
+¿Quién lo hace?
+¿Cuándo está “listo”?
+
+Ejemplo de ticket ShowFuture:
+Cliente: SexySkin
+Tipo: 🎨 Creativo
+Objetivo: Video para campaña de conversión
+Formato: Reel 30s
+Deadline: Viernes
+Responsable: Editor
+Estado: En proceso
+
+📌 En Notion, esto es solo una base de datos simple.
+
+
+ DOCUMENTO 4 — CHECKLIST QA (Control de Calidad)
+
+📌 Página: QA – Antes de Enviar
+
+QA Estratégico
+☐ Mensaje alineado al objetivo
+☐ CTA claro
+☐ Funnel correcto
+
+QA Marca & Compliance
+☐ Tono de marca correcto
+☐ Sin claims riesgosos
+☐ Alineado a políticas
+
+QA Técnico
+☐ Formato correcto
+☐ Subtítulos legibles
+☐ Duración adecuada
+
+Aprobado por: Nombre AM: _______ Fecha: _______
+
+
+📄 DOCUMENTO 5 — RITMO SEMANAL DE OPERACIÓN
+
+📌 Página: Rituales Operativos
+
+Lunes (20–30 min)
+Prioridades de la semana
+Tickets activos
+Bloqueos
+
+Miércoles
+Revisión performance
+Ajustes
+
+Viernes
+Qué funcionó
+Qué no
+Qué se testea la próxima semana
+
+
+📄 DOCUMENTO 6 — KPIs INTERNOS (Notion Dashboard)
+
+KPIs Operativos
+% entregas a tiempo
+Tickets cerrados/semana
+
+KPIs Cliente
+Leads
+CPA
+ROAS / CPL
+Retención mensual
+
+KPI Fundador
+Horas/semana en operación (objetivo: ↓)
+
+
+TERMINOLOGÍA
+
+Término | En ShowFuture significa
+OS v1 | El primer sistema operativo que ordena la empresa
+SOP | La forma estándar de hacer las cosas
+SLA | Tiempos claros de respuesta y entrega
+Ticket | Pedido de trabajo claro y trazable
